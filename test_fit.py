@@ -13,7 +13,8 @@ print(y1,y2)
 
 def func(x,a,b,c):
     if x< 2:
-        return a
+        return 0 #This can just be the initial point, so the fitting function returns the initial point 
+    #and the initial point isn't factored into the logarithmic trend, or is the starting point
     else:
         return a*np.log(x-c)+b
     
@@ -24,7 +25,7 @@ orig = curve_fit(model,x1,y1)
 a1 = orig[0][0]
 b1 = orig[0][1]
 c1= orig[0][2]
-print(orig)
+#print(orig)
 '''
 fit1 = []
 for i in x1:
