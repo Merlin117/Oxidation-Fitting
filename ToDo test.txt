@@ -1,0 +1,10 @@
+1.  Make this ToDo list for practicing git commands
+
+2.  make a fake data set similar to the oxidation data, with a logarithmic trend, but offest by a known amount, which I will try to find in using python
+
+3.  import the test csv into python
+
+4.  make the appropriate model
+
+5. fit the data and plot everything
+
